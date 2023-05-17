@@ -20,6 +20,7 @@
 		5C52CCFB2A0373AE003E9FF3 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C52CCFA2A0373AE003E9FF3 /* AddView.swift */; };
 		5C52CCFD2A0373CC003E9FF3 /* TransactionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C52CCFC2A0373CC003E9FF3 /* TransactionItem.swift */; };
 		5C52CCFF2A0373E9003E9FF3 /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C52CCFE2A0373E9003E9FF3 /* Transactions.swift */; };
+		5C52CD012A037778003E9FF3 /* DateAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C52CD002A037778003E9FF3 /* DateAddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		5C52CCFA2A0373AE003E9FF3 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		5C52CCFC2A0373CC003E9FF3 /* TransactionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionItem.swift; sourceTree = "<group>"; };
 		5C52CCFE2A0373E9003E9FF3 /* Transactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
+		5C52CD002A037778003E9FF3 /* DateAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateAddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				5C52CCF62A03736A003E9FF3 /* HomeView.swift */,
 				5C52CCF82A03738E003E9FF3 /* TransactionView.swift */,
 				5C52CCFA2A0373AE003E9FF3 /* AddView.swift */,
+				5C52CD002A037778003E9FF3 /* DateAddView.swift */,
 				5C52CCFC2A0373CC003E9FF3 /* TransactionItem.swift */,
 				5C52CCFE2A0373E9003E9FF3 /* Transactions.swift */,
 				5C52CCCE2A037332003E9FF3 /* Assets.xcassets */,
@@ -280,6 +283,7 @@
 				5C52CCFB2A0373AE003E9FF3 /* AddView.swift in Sources */,
 				5C52CCF92A03738E003E9FF3 /* TransactionView.swift in Sources */,
 				5C52CCCB2A03732C003E9FF3 /* FinalProjectApp.swift in Sources */,
+				5C52CD012A037778003E9FF3 /* DateAddView.swift in Sources */,
 				5C52CCF52A03734E003E9FF3 /* ReminderView.swift in Sources */,
 				5C52CCFF2A0373E9003E9FF3 /* Transactions.swift in Sources */,
 				5C52CCFD2A0373CC003E9FF3 /* TransactionItem.swift in Sources */,

@@ -15,7 +15,7 @@ struct AddView: View {
     @State private var type = "Personal"
     @State private var amount = 0.0
 
-    let types = ["Business", "Personal"]
+    let types = ["Business", "Personal", "Bills", "Food", "Gas", "Groceries", "Entertainment"]
 
     var body: some View {
         NavigationView {
@@ -31,7 +31,7 @@ struct AddView: View {
                 TextField("Amount", value: $amount, format: .currency(code: "USD"))
                     .keyboardType(.decimalPad)
             }
-            .navigationTitle("Add new expense")
+            .navigationTitle("Add new transaction")
             .toolbar {
                 Button("Save") {
                     let item = TransactionItem(name: name, type: type, amount: amount)
