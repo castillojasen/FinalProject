@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C0CFF432A1454DC009B749C /* ReminderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0CFF422A1454DB009B749C /* ReminderItem.swift */; };
+		5C0CFF452A145559009B749C /* Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0CFF442A145559009B749C /* Reminders.swift */; };
 		5C52CCCB2A03732C003E9FF3 /* FinalProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C52CCCA2A03732C003E9FF3 /* FinalProjectApp.swift */; };
 		5C52CCCD2A03732C003E9FF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C52CCCC2A03732C003E9FF3 /* ContentView.swift */; };
 		5C52CCCF2A037332003E9FF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C52CCCE2A037332003E9FF3 /* Assets.xcassets */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C0CFF422A1454DB009B749C /* ReminderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderItem.swift; sourceTree = "<group>"; };
+		5C0CFF442A145559009B749C /* Reminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminders.swift; sourceTree = "<group>"; };
 		5C52CCC72A03732C003E9FF3 /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C52CCCA2A03732C003E9FF3 /* FinalProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectApp.swift; sourceTree = "<group>"; };
 		5C52CCCC2A03732C003E9FF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -116,7 +120,9 @@
 				5C52CCFA2A0373AE003E9FF3 /* AddView.swift */,
 				5C52CD002A037778003E9FF3 /* DateAddView.swift */,
 				5C52CCFC2A0373CC003E9FF3 /* TransactionItem.swift */,
+				5C0CFF422A1454DB009B749C /* ReminderItem.swift */,
 				5C52CCFE2A0373E9003E9FF3 /* Transactions.swift */,
+				5C0CFF442A145559009B749C /* Reminders.swift */,
 				5C52CCCE2A037332003E9FF3 /* Assets.xcassets */,
 				5C52CCD02A037332003E9FF3 /* Preview Content */,
 			);
@@ -278,6 +284,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C0CFF452A145559009B749C /* Reminders.swift in Sources */,
+				5C0CFF432A1454DC009B749C /* ReminderItem.swift in Sources */,
 				5C52CCCD2A03732C003E9FF3 /* ContentView.swift in Sources */,
 				5C52CCF72A03736A003E9FF3 /* HomeView.swift in Sources */,
 				5C52CCFB2A0373AE003E9FF3 /* AddView.swift in Sources */,
